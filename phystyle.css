@@ -3,6 +3,12 @@
 .info{
 	margin: 1px;	
 }
+p{
+	font-family:"times new roman";
+}
+input{
+	width:130px;
+}
 div{
 	border:solid;
 	padding:5px;
