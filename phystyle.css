@@ -5,6 +5,7 @@
 }
 p{
 	font-family:"times new roman";
+	font-size:15.5px;
 }
 input{
 	width:130px;
@@ -13,6 +14,7 @@ div{
 	border:solid;
 	padding:5px;
 	width:355px;
+	margin:5px;
 
 }
 header{
