@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html >
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="angularcalculations.js"></script>
+    <title>Physics Calculator</title>
+</head>
+<body ng-app ="phyApp" ng-controller="myCtrl">
+    <div ng-repeat="f in functions">
+        <p>{{f.name}} is {{f.value}}</p>
+        <input ng-model="f.id" type="number"/>
+
+        <p>{{f.id}}</p>
+        <p ng-if="f.vars">{{f.vars[1]}}</p>
+    </div>
+</body>
+</html>
